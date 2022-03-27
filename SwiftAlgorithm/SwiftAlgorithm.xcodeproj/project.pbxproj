@@ -41,6 +41,7 @@
 		F3B949F927F02039003FBAD6 /* stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B949F127F02039003FBAD6 /* stack.swift */; };
 		F3B949FA27F02039003FBAD6 /* stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B949F127F02039003FBAD6 /* stack.swift */; };
 		F3B949FB27F02039003FBAD6 /* stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B949F127F02039003FBAD6 /* stack.swift */; };
+		F3B949FE27F041F9003FBAD6 /* companyTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B949FD27F041F9003FBAD6 /* companyTopics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,7 @@
 		F3B949F027F02039003FBAD6 /* queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = queue.swift; sourceTree = "<group>"; };
 		F3B949F127F02039003FBAD6 /* stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stack.swift; sourceTree = "<group>"; };
 		F3B949FC27F02097003FBAD6 /* 剑指offer 名企面试官精讲典型编程题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "剑指offer 名企面试官精讲典型编程题.pdf"; sourceTree = "<group>"; };
+		F3B949FD27F041F9003FBAD6 /* companyTopics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = companyTopics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				F3B949BE27F01F35003FBAD6 /* main.swift */,
+				F3B949FD27F041F9003FBAD6 /* companyTopics.swift */,
 			);
 			path = CompanyTopic;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B949FA27F02039003FBAD6 /* stack.swift in Sources */,
+				F3B949FE27F041F9003FBAD6 /* companyTopics.swift in Sources */,
 				F3B949BF27F01F35003FBAD6 /* main.swift in Sources */,
 				F3B949EE27F01FFF003FBAD6 /* SortDataHelper.swift in Sources */,
 				F3B949F527F02039003FBAD6 /* queue.swift in Sources */,
