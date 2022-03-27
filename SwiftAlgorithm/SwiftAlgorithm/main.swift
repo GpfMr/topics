@@ -12,7 +12,7 @@ import Foundation
 
 print("Hello, World!111")
 
-var list:[Int] = [1,2,3,4,5]
+var list:[Int] = [1,2,3,4,2,4,6,8,10,11,12,5,9,13,5]
 
 var result = searchRepeatNumber(list: list)
 

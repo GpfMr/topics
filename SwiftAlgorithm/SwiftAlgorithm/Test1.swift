@@ -1,5 +1,5 @@
 //
-//  Test1.swift
+//  .swift
 //  SwiftAlgorithm
 //
 //  Created by Liang shi on 2022/3/27.
@@ -91,11 +91,24 @@ import Foundation
  
  */
 
-func searchRepeatNumber(list:[Int]) -> [Int] {
-    var result = [Int]();
+func searchRepeatNumber(list:[Int]) -> [Int:Int] {
     
-    result.append(1);
+    print("origin data is\(list)")
+    var result = [Int:Int]() //key 数据 value索引
+    var map = [Int:Int]()   //key数据 value索引
     
+    for index in 0..<list.count{
+        let value = list[index]
+        if map.keys.contains(value){
+            //找到重复
+            result[value] = index
+        }else{
+            //没有重复
+            map[value] = index
+        }
+                
+    }
+    map.removeAll()
     return result;
     
 }
