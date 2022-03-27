@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
 
+
+
+print("Hello, World!111")
+
+var list:[Int] = [1,2,3,4,5]
+
+var result = searchRepeatNumber(list: list)
+
+print("result is \(result)")
