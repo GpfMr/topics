@@ -7,8 +7,4 @@
 
 import Foundation
 
-func topic1Test() {
-    print("菜不菜啊你")
-}
-
 
