@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49503E2D27F048210073E2AF /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49503E2C27F048210073E2AF /* Test1.swift */; };
+		493FDED027F1ED5E00A1165B /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49503E2C27F048210073E2AF /* Test1.swift */; };
+		493FDED227F1ED8000A1165B /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FDED127F1ED8000A1165B /* Test2.swift */; };
+		493FDED627F1F4B000A1165B /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FDED127F1ED8000A1165B /* Test2.swift */; };
+		493FDED727F1F4B600A1165B /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49503E2C27F048210073E2AF /* Test1.swift */; };
 		49503E2F27F048840073E2AF /* read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49503E2E27F048840073E2AF /* read.swift */; };
 		F3B9499C27F0189A003FBAD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9499B27F0189A003FBAD6 /* main.swift */; };
 		F3B949A927F01F09003FBAD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B949A827F01F09003FBAD6 /* main.swift */; };
@@ -121,6 +124,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		493FDED127F1ED8000A1165B /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		49503E2C27F048210073E2AF /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
 		49503E2E27F048840073E2AF /* read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = read.swift; sourceTree = "<group>"; };
 		F3B9499827F0189A003FBAD6 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,9 +253,10 @@
 			children = (
 				F3B9499B27F0189A003FBAD6 /* main.swift */,
 				F3B949EA27F01FFE003FBAD6 /* SortDataHelper.swift */,
-				49503E2C27F048210073E2AF /* Test1.swift */,
 				F3B949F027F02039003FBAD6 /* queue.swift */,
 				F3B949F127F02039003FBAD6 /* stack.swift */,
+				49503E2C27F048210073E2AF /* Test1.swift */,
+				493FDED127F1ED8000A1165B /* Test2.swift */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -472,9 +477,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493FDED627F1F4B000A1165B /* Test2.swift in Sources */,
 				F3B949F727F02039003FBAD6 /* stack.swift in Sources */,
-				49503E2D27F048210073E2AF /* Test1.swift in Sources */,
 				F3B9499C27F0189A003FBAD6 /* main.swift in Sources */,
+				493FDED727F1F4B600A1165B /* Test1.swift in Sources */,
 				F3B949EB27F01FFF003FBAD6 /* SortDataHelper.swift in Sources */,
 				49503E2F27F048840073E2AF /* read.swift in Sources */,
 				F3B949F227F02039003FBAD6 /* queue.swift in Sources */,
@@ -499,6 +505,7 @@
 				F3B94A7A27F095F3003FBAD6 /* topic12.swift in Sources */,
 				F3B949F327F02039003FBAD6 /* queue.swift in Sources */,
 				F3B94A7327F095F3003FBAD6 /* topic07.swift in Sources */,
+				493FDED227F1ED8000A1165B /* Test2.swift in Sources */,
 				F3B94A6427F095F3003FBAD6 /* topic31.swift in Sources */,
 				F3B94A7127F095F3003FBAD6 /* topic13.swift in Sources */,
 				F3B94A7727F095F3003FBAD6 /* topic26.swift in Sources */,
@@ -527,6 +534,7 @@
 				F3B94A7B27F095F3003FBAD6 /* topic39.swift in Sources */,
 				F3B94A8627F095F3003FBAD6 /* topic28.swift in Sources */,
 				F3B94A8827F095F3003FBAD6 /* topic24.swift in Sources */,
+				493FDED027F1ED5E00A1165B /* Test1.swift in Sources */,
 				F3B94A6E27F095F3003FBAD6 /* topic05.swift in Sources */,
 				F3B94A6327F095F3003FBAD6 /* topic25.swift in Sources */,
 			);
@@ -710,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -721,7 +729,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -731,10 +739,11 @@
 		F3B949B627F01F19003FBAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -742,10 +751,11 @@
 		F3B949B727F01F19003FBAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -753,10 +763,11 @@
 		F3B949C127F01F35003FBAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -764,10 +775,11 @@
 		F3B949C227F01F35003FBAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -775,10 +787,11 @@
 		F3B949CC27F01F62003FBAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -786,10 +799,11 @@
 		F3B949CD27F01F62003FBAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VH7UC79973;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
